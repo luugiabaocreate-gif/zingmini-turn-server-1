@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: zingmini-turn-server-1
+    env: docker
+    plan: free
+    region: singapore
+    dockerfilePath: ./Dockerfile
